@@ -243,6 +243,8 @@ I hereby declare that I have not submitted this material, either in full or in p
 
 
 %% Acronyms
+%% Does acronym with citation for introduction of a survey or something
+\newcommand{\acrocite}[2]{\acl{#1} \citep[\acs{#1},][]{#2}\acused{#1}}
 \DeclareRobustCommand{\theacro}{}
 \DeclareRobustCommand{\theacrowd}{}
 \DeclareRobustCommand{\arcos}{
